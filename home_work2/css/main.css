@@ -1,0 +1,385 @@
+* {
+    margin: 0px;
+    padding: 0px;       
+}
+
+html,body{
+    font-family: sans-serif;
+    font-size: 13px;
+    min-height: 200%;
+    min-width: 100%;
+    display:block;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+button, input {
+    border: none;
+    outline: none;
+    background-color: white;
+}
+a{
+    text-decoration: none;    
+}
+
+ul{
+    list-style: none;    
+}
+/* -------------------HEADER---------------------- */
+header {
+    display: block;
+    height: 50px;
+    width: 100%;
+    border: 1px solid grey;
+    
+}
+
+.main-menu-wrap {
+    display: inline-block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-left: 25px;
+    padding: 15px 10px;
+}
+
+.main-menu-btn{
+    width: 20px;
+    height: 20px;    
+    display: block;
+    background: url(/img/sprt-yt.png) -421px -229px;
+    background-repeat: no-repeat;
+    cursor: pointer;    
+}
+
+.main-menu-btn:hover{
+    background: url(/img/sprt-yt.png) -160px -110px;
+}
+
+.header-logo{
+    display: inline-block;
+    float: left;
+    height: 40px;
+    width: 100px;
+    padding: 7px 65px 0px 0px;
+}
+
+.logo {
+    display: block;
+    background: url(/img/sprt-yt.png) -307px -58px;
+    height: 35px;
+    width: 75px;
+}
+
+.header-logo-region{
+    color: #767676;
+    font-size: 11px;
+    position: relative;
+    top: -35px;
+    left: 75px;
+}
+
+.header-form{
+    display: inline-block;
+    float: left;
+    height: 30px;
+    width: 600px;
+    border: 1px solid grey;
+    margin: 9px 0px;
+}
+
+.header-form [type="search"]{
+    height: inherit;
+    width: 83%;
+}
+.header-form [type="submit"]{
+    height: inherit;
+    width: 65px;
+    border-left: 1px solid grey;
+    float: right;   
+}
+
+.submit-search-icon{
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url(/img/sprt-yt.png) -340px -209px;
+    margin: auto;
+    opacity: 0.6;
+}
+.submit-search-icon:hover{
+    opacity: 1;
+}
+.keyboard{
+    margin: 0px 7px;
+}
+.keyboard span{
+    display: inline-block;
+    width: 19px;
+    height: 11px;
+    background: url(/img/keyboard.jpg);
+    opacity: 0.56;
+}
+
+.keyboard span:hover{
+    opacity: 0.78;
+}
+
+.add-video {
+    display: inline-block;
+    width: 105px;
+    height: 30px;
+    border: 1px solid grey;
+    background-color: #f1f1f1;
+    border-radius: 2px;
+    margin: 9px 15px 9px 25px;
+    cursor: pointer;
+}
+.add-video:hover{
+    background-color: #ececec;
+}
+
+.login {
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 2px;
+    cursor: pointer;
+    float: right;
+    margin: 10px 20px;    
+}
+.login:hover{
+    background-color: royalblue;
+}
+
+
+/*-------------------------Main-Menu--------------------- */
+
+.main-menu{
+    display: inline-block;
+    float: left;
+    width: 190px;
+    height: 100%;
+    border: 1px solid grey;
+    border-top: none;
+    padding: 10px 20px;   
+}
+.main-menu li, .href-book{
+    display: block;
+    width: 190px;
+    height: 30px;
+    font-size: 14px;   
+    padding: 1px 1px;
+    color: #555;
+    
+}
+.nav-list-spn1{
+    opacity: 0.7;
+    
+}
+.main-menu a {
+    display: block;
+    color: inherit;
+}
+
+.nav-list-spn1 {
+    display: inline-block;
+    background: url(/img/sprt-yt.png) -219px -158px;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    float: left;
+}
+.nav-list-text{
+    display: block;    
+    height: 15px;
+    margin-left: 25px;
+    line-height: 31px;
+}
+
+
+.nav-list-spn2 {
+    display: inline-block;
+    background: url(/img/sprt-yt.png) -674px 0px;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    float: left;
+}
+.nav-list li:hover{
+   background-color: #555;
+   color: white;
+    
+}
+
+.nav-list li:hover .nav-list-spn1{
+    background: url(/img/sprt-yt.png) -461px -96px;
+    opacity: 1;
+}
+.nav-list li:hover .nav-list-spn2{
+    background: url(/img/sprt-yt.png) -532px -232px;
+}
+hr {
+    display: block;
+    margin: 8px 0px;
+    border-bottom: 1px solid #e2e2e2;
+}
+h3 {
+    color: firebrick;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+.best-yt li:hover{
+    background-color: #555;
+    color: white;
+}
+.ico{
+    display: inline-block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 5px;    
+}
+
+.best1{
+    background: url(/img/spr-best-yt.jpg) 0px 0px;
+}
+.best2{
+    background: url(/img/spr-best-yt.jpg) 0px -21px;
+}
+.best3{
+    background: url(/img/spr-best-yt.jpg) 0px -42px;
+}
+.best4{
+    background: url(/img/spr-best-yt.jpg) 0px -63px;
+}
+.best5{
+    background: url(/img/spr-best-yt.jpg) 0px -84px;
+}
+.best6{
+    background: url(/img/spr-best-yt.jpg) 0px -106px;
+}
+.best7{
+    background: url(/img/spr-best-yt.jpg) 0px -127px;
+}
+
+.href-book .ico{
+    background: url(/img/sprt-yt.png) -68px -204px;
+}
+
+.href-book:hover{
+    background: #555;
+    color: white;
+}
+.href-book:hover .ico{
+    background: url(/img/sprt-yt.png) -568px -258px;
+}
+.mainl {
+    display:block;
+    float: left;
+    margin: 10px 0px;
+}
+/**************** Content ********************/
+.content-main-conteiner{
+    border: 1px solid black;
+    width: 870px;
+    height: 100%;
+    display: inline-block;
+    float: right;
+}
+.yt-video-list{
+    display: block;
+    position: relative;
+    width: 850px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+}
+.video{
+    display: inline-block;
+    position: relative;
+    height: 170px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 0px 0px;
+    float: left;
+    
+}
+.yt-video-list-header{
+    display: block;
+    position: relative;
+    margin: 0px;
+    padding: 0px;    
+}
+.video img{
+    display: block;
+    width: inherit;
+    height: 110px;
+      
+}
+
+
+/********************* Footer  ***************/
+footer{
+    display: block;
+    clear: both;
+    border-top: 1px solid grey; 
+}
+
+.footer-main {
+    display: block;
+    height: 50px;
+    width: 100%;
+    padding: 0px 30px;
+}
+.footer-main .logo{
+    display: inline-block;
+    margin: 10px 0px;
+}
+
+footer ul{
+    display: inline-block;
+    height: 50px;
+    position: relative;
+    top: -20px;    
+} 
+footer ul li {
+    display: inline;    
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    color: dodgerblue;
+    border-bottom: 1px solid dodgerblue;
+}
+
+.footer-links {
+    display: block;
+    height: 25px;
+    width: 100%;
+    
+}
+
+.footer-links > ul{
+    height: inherit;
+    display: block;
+    position: relative;
+    top: 15px;
+    margin: 0px 10px;
+}
+.size li a{
+    font-size: 11px;  
+    color: #767676;
+}
+
+#llc {
+    color: #666;
+    font-size: 11px;
+    opacity: 0.6;
+}
