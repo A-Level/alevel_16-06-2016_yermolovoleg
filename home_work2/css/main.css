@@ -48,13 +48,13 @@ header {
     width: 20px;
     height: 20px;    
     display: block;
-    background: url(/img/sprt-yt.png) -421px -229px;
+    background: url(../img/sprt-yt.png) -421px -229px;
     background-repeat: no-repeat;
     cursor: pointer;    
 }
 
 .main-menu-btn:hover{
-    background: url(/img/sprt-yt.png) -160px -110px;
+    background: url(../img/sprt-yt.png) -160px -110px;
 }
 
 .header-logo{
@@ -67,7 +67,7 @@ header {
 
 .logo {
     display: block;
-    background: url(/img/sprt-yt.png) -307px -58px;
+    background: url(../img/sprt-yt.png) -307px -58px;
     height: 35px;
     width: 75px;
 }
@@ -104,7 +104,7 @@ header {
     display: block;
     width: 15px;
     height: 15px;
-    background: url(/img/sprt-yt.png) -340px -209px;
+    background: url(../img/sprt-yt.png) -340px -209px;
     margin: auto;
     opacity: 0.6;
 }
@@ -118,7 +118,7 @@ header {
     display: inline-block;
     width: 19px;
     height: 11px;
-    background: url(/img/keyboard.jpg);
+    background: url(../img/keyboard.jpg);
     opacity: 0.56;
 }
 
@@ -187,7 +187,7 @@ header {
 
 .nav-list-spn1 {
     display: inline-block;
-    background: url(/img/sprt-yt.png) -219px -158px;
+    background: url(../img/sprt-yt.png) -219px -158px;
     width: 20px;
     height: 20px;
     margin: 5px;
@@ -203,7 +203,7 @@ header {
 
 .nav-list-spn2 {
     display: inline-block;
-    background: url(/img/sprt-yt.png) -674px 0px;
+    background: url(../img/sprt-yt.png) -674px 0px;
     width: 20px;
     height: 20px;
     margin: 5px;
@@ -216,11 +216,11 @@ header {
 }
 
 .nav-list li:hover .nav-list-spn1{
-    background: url(/img/sprt-yt.png) -461px -96px;
+    background: url(../img/sprt-yt.png) -461px -96px;
     opacity: 1;
 }
 .nav-list li:hover .nav-list-spn2{
-    background: url(/img/sprt-yt.png) -532px -232px;
+    background: url(../img/sprt-yt.png) -532px -232px;
 }
 hr {
     display: block;
@@ -245,29 +245,29 @@ h3 {
 }
 
 .best1{
-    background: url(/img/spr-best-yt.jpg) 0px 0px;
+    background: url(../img/spr-best-yt.jpg) 0px 0px;
 }
 .best2{
-    background: url(/img/spr-best-yt.jpg) 0px -21px;
+    background: url(../img/spr-best-yt.jpg) 0px -21px;
 }
 .best3{
-    background: url(/img/spr-best-yt.jpg) 0px -42px;
+    background: url(../img/spr-best-yt.jpg) 0px -42px;
 }
 .best4{
-    background: url(/img/spr-best-yt.jpg) 0px -63px;
+    background: url(../img/spr-best-yt.jpg) 0px -63px;
 }
 .best5{
-    background: url(/img/spr-best-yt.jpg) 0px -84px;
+    background: url(../img/spr-best-yt.jpg) 0px -84px;
 }
 .best6{
-    background: url(/img/spr-best-yt.jpg) 0px -106px;
+    background: url(../img/spr-best-yt.jpg) 0px -106px;
 }
 .best7{
-    background: url(/img/spr-best-yt.jpg) 0px -127px;
+    background: url(../img/spr-best-yt.jpg) 0px -127px;
 }
 
 .href-book .ico{
-    background: url(/img/sprt-yt.png) -68px -204px;
+    background: url(../img/sprt-yt.png) -68px -204px;
 }
 
 .href-book:hover{
@@ -275,7 +275,7 @@ h3 {
     color: white;
 }
 .href-book:hover .ico{
-    background: url(/img/sprt-yt.png) -568px -258px;
+    background: url(../img/sprt-yt.png) -568px -258px;
 }
 .mainl {
     display:block;
